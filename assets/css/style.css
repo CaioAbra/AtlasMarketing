@@ -535,6 +535,8 @@ span.card-link {
   transition: all 0.3s;
   font-size: 14px;
   text-align: center;
+  line-height: normal;
+  font-family: SpaceGrotesk-Bold !important;
 }
 .card-link-btn:hover {
   text-decoration: none;
@@ -549,7 +551,6 @@ span.card-link {
 }
 .subtitle-p:hover {
   text-decoration: none;
-  color: var(--laranja);
 }
 @media screen and (min-width: 1366px) {
   .subtitle-p {
@@ -619,6 +620,7 @@ label.fileInput {
   padding: 0;
   color: var(--cinza-medio);
   font-size: 10px;
+  font-family: SpaceGrotesk-Light;
 }
 @media screen and (min-width: 1366px) {
   .accordion .card .card-header button {
