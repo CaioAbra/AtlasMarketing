@@ -324,6 +324,24 @@
         border-top: 1px solid #1F1F1F;
         ;
     }
+
+    .card-subtitle {
+        font-size: 1rem;
+
+        @media screen and (min-width:1366px) {
+            font-size: 22px;
+            font-weight: 600;
+        }
+    }
+
+    .subtitle-p-legal {
+        font-size: 12px;
+        color: var(--cinza-medio);
+
+        @media screen and (min-width:1366px) {
+            font-size: 14px;
+        }
+    }
 }
 
 .overflow-table {
@@ -566,6 +584,8 @@ span.card-link {
     border-radius: 6px;
     padding: .5rem 2rem;
     transition: all .3s;
+    font-size: 14px;
+    text-align: center;
 
     &:hover {
         text-decoration: none;
@@ -686,6 +706,12 @@ label.fileInput {
 
 .labelfileInput {
     color: var(--cinza) !important;
+}
+
+.card.img-card{
+    border: none;
+    border-radius: 6px;
+    background: transparent;
 }
 
 
