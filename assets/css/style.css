@@ -617,8 +617,13 @@ label.fileInput {
 }
 .accordion .card .card-header button {
   padding: 0;
-  color: var(--cinza);
-  font-size: 12px;
+  color: var(--cinza-medio);
+  font-size: 10px;
+}
+@media screen and (min-width: 1366px) {
+  .accordion .card .card-header button {
+    font-size: 14px;
+  }
 }
 .accordion .card .card-body {
   padding: 0;
@@ -632,6 +637,10 @@ label.fileInput {
   border: none;
   border-radius: 6px;
   background: transparent;
+}
+.card.img-card .img-mask {
+  width: 100%;
+  height: auto;
 }
 
 .navbar {

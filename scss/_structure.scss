@@ -692,8 +692,12 @@ label.fileInput {
 
             button {
                 padding: 0;
-                color: var(--cinza);
-                font-size: 12px;
+                color: var(--cinza-medio);
+                font-size: 10px;
+
+                @media screen and (min-width:1366px) {
+                    font-size: 14px;
+                }
             }
         }
 
@@ -712,6 +716,12 @@ label.fileInput {
     border: none;
     border-radius: 6px;
     background: transparent;
+
+    .img-mask{
+        width: 100%;
+        height: auto;
+        // max-height: 330px;
+    }
 }
 
 
